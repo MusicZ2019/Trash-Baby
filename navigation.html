@@ -3,8 +3,104 @@
 <head>
 <meta charset="utf-8">
 <title>navigation</title>
+<style type="text/css">
+a img{
+			border:0;
+		}
+		a img:hover{
+			border:0;
+		}
+		body{
+			margin:0;
+		}
+.a1{
+	position: relative;
+	width: 1000px;
+  	height:620px;
+ 	margin: 0 auto;
+	}
+	.title{
+	position: absolute;
+	left: 229px;
+	top: 70px;
+	width: 233px;
+	height: 124px;
+	}
+	.title1{
+	position: absolute;
+	left: 107px;
+	top: -125px;
+	width: 212px;
+	height: 256px;
+	}
+	.teacher{
+	position: absolute;
+	left: 952px;
+	top: 304px;
+	width: 200px;
+	height: 310px;
+	}
+	.return{
+	position: absolute;
+	left: 42px;
+	top: 532px;
+	width: 432px;
+	}
+#choose1{
+	position: absolute;
+	left: 351px;
+	top: 138px;
+	width: 288px;
+	height: 172px;
+	}
+#choose2{
+	position: absolute;
+	left: 704px;
+	top: 138px;
+	width: 380px;
+	height: 170px;
+	}
+#choose3{
+	position: absolute;
+	left: 238px;
+	top: 356px;
+	width: 321px;
+	height: 168px;
+	}
+#choose4{
+	position: absolute;
+	left: 639px;
+	top: 356px;
+	width: 297px;
+	height: 173px;
+	}
+#return{
+	position: absolute;
+	left: 61px;
+	top: 554px;
+	}
+#choose1:hover,#choose2:hover,#choose3:hover,#choose4:hover,#return:hover{
+	transform:scale(1.1);
+}
+	</style>
 </head>
 
 <body>
+<!-- 背景-->
+<div class="a1"><img src="image/navigation/background.png" width="1000" height="620"></div>
+<!-- 目录-->
+	<div class="title"><img src="image/navigation/title.png" width="189" height="120"></div>
+	<div class="title1"><img src="image/navigation/elephant.png" width="272" height="356"></div>
+	<div class="teacher"><img src="image/navigation/teacher.png" width="172" height="299"></div>
+<!-- 选择区-->
+	<div class="list">
+		<a href="study.html"><img src="image/navigation/study.png" width="146" height="100" id="choose1"></a>
+		<a href="read.html"><img src="image/navigation/read.png" width="308" height="147" id="choose2"></a>
+		<a href="play.html"><img src="image/navigation/play.png" width="310" height="147" id="choose3"></a>
+		<a href="text.html"><img src="image/navigation/test.png" width="310" height="147" id="choose4"></a>
+		<a href="index.html"><img src="image/navigation/next.png" width="304" height="65" id="return"></a>
+	</div>
+	
+
 </body>
 </html>
