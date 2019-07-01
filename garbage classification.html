@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>garbage classification</title>
+<style type="text/css">
+a img{border:0;}
+a img:hover{border:0;}
+html,body{
+	margin:0;
+	padding:0;
+}	
+
+#box{
+	height: 548px;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	background-image:url(image/classification/background.png);
+}
+	#text{
+		top: auto;
+	}
+.title2{
+	position: absolute;
+	left: 16px;
+	top: 17px;
+	-webkit-animation: run 50s linear 0s infinite;
+	width: 197px;
+	height: 124px;
+	}
+	.redrub{
+	position: absolute;
+	left: 38px;
+	top: 232px;
+	width: 122px;
+	height: 213px;
+	}
+	.redrub:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}
+	.blackrub{
+	position: absolute;
+	left: 256px;
+	top: 295px;
+	width: 180px;
+	height: 221px;
+	}
+	.blackrub:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}
+	.bluerub{
+	position: absolute;
+	left: 484px;
+	top: 286px;
+	width: 180px;
+	height: 221px;
+	}
+	.bluerub:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}
+	.dryrub{
+	position: absolute;
+	left: 730px;
+	top: 213px;
+	}
+	.dryrub:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}
+	.child{
+	position: absolute;
+	left: 729px;
+	top: 422px;
+	width: 168px;
+	height: 121px;
+	}
+	.child:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}
+	
+   @-webkit-keyframes run{  
+        from{  
+            -webkit-transform:rotate(360deg);  
+        }  
+        to{  
+            -webkit-transform:rotate(0deg);  
+        }
+	</style>
+</head>
+
+
+<body>
+<div id="box">
+	<ul><div class="title2"><img src="image/classification/sun.png"  width="160" height="134" ></div>
+  <marquee direction="left" behavior="scroll"><img src="image/classification/cloud.png" width="173" height="64"></marquee></ul>
+   <ul><marquee direction="right" behavior="scroll" onmouseover=this.stop() onmouseout=this.start()
+><img src="image/classification/cloud2.png" width="209" height="111"></marquee></ul>
+<div id="text">
+	
+</div>
+    <div class="redrub"><a href="badrub.html"><img src="image/classification/redrub.png" width="156" height="198"></a></div>
+    <div class="blackrub"><a href="brownrub.html"><img src="image/classification/blackrub.png" width="170" height="232"></a></div>
+    <div class="bluerub"><a href="bluerub.html"><img src="image/classification/bluerub.png" width="159" height="220"></a></div>
+    <div class="dryrub"><a href="dryrub.html"><img src="image/classification/dryrub.png" width="165" height="213"></a></div>
+    <div class="child"><a href="study.html"><img src="image/classification/child.png" width="153" height="124"></a></div>
+     
+</div>
+
+</body>
+</html>

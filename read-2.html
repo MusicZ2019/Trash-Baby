@@ -36,8 +36,8 @@
 	font-size: 25px;
 	color: #333;
 	font-family: "幼圆";
-	left: 448px;
-	top: 88px;
+	left: 449px;
+	top: 69px;
 	}
 	#textshow{
 	font-size: 25px;
@@ -46,12 +46,19 @@
 	}
 	#next1{
 	position: absolute;
-	left: 887px;
-	top: 451px;
+	left: 900px;
+	top: 456px;
 	height: 53px;
 	width: 80px;
 	}
-	#return:hover,#next1:hover{
+	#last{
+	position: absolute;
+	left: 831px;
+	top: 490px;
+	width: 80px;
+	height: 60px;
+	}
+	#return:hover,#next1:hover,#last:hover{
 	transform:scale(1.1);
 	}
 	</style></head>
@@ -59,21 +66,28 @@
 <body>
 <div id="all">
 <marquee direction="right" behavior="alternate" width="600px" hspace="100px" scrollamount="5"onmouseover=this.stop() onmouseout=this.start()><img src="image/read/cloud.png" width="247" height="126" ></marquee>
-<div id="Border"><img src="image/read/content.png" width="616" height="456"></div>
+<div id="Border"><img src="image/read/content.png"width="616" height="456"></div>
 <div id="return"><a href="navigation.html"><img src="image/read/next.png" width="306" height="64"></a></div>
 <p id="word">
 &nbsp;&nbsp;&nbsp;&nbsp;
-垃圾分类七字诀<br/><br/>
-认清四色垃圾桶，垃圾分类要清楚，<br/>
+垃圾分类三字经<br/><br/>
+垃圾多，危害大，常清理，靠大家。<br/>
 
-蓝色大桶可回收，变废为宝好颜色，<br/>
+瓜果皮，易腐蚀，招蚊叮，招虫咬。<br/>
 
-棕色大桶装剩菜，变成肥料来灌溉，<br/>
+扔垃圾，分类放，垃圾桶，要认好。<br/>
 
-红桶垃圾最有害，电池灯管就是他，<br/>
+不可烂，红色桶，可烂的，绿色桶。<br/>
 
-黑色大桶装其他，尿布旧物来安家。
+可卖的，蓝色筐，多聚集，换成钱。<br/>
+
+废旧品，巧利用，小改造，变成宝。<br/>
+
+好习惯，要养成，即文明，又环保。<br/>
+
+一起来，分分类，人人夸，好宝宝。<br/>
 </p>
+
 <script type="text/javascript">
   var index = 0;  
   var str = document.getElementById("textshow").innerHTML;  
@@ -87,10 +101,10 @@ clearInterval();
 var a = document.getElementById("#word")
 a.innerText = str.substring(0, index++);
 },300)
- 
 </script>
-<div id="next1"><a href="read-2.html"><img src="image/read/last.png" height="53" width="100"></a></div>
+<div id="next1"><a href="read-3.html"><img src="image/read/last.png" height="59" width="88"></a></div>
 
+<div id="last"><a href="read.html"><img src="image/read/next1.png" height="55" width="82"></a></div>
 </div>
 
 </div>
