@@ -1,0 +1,89 @@
+a img{border:0;}
+a img:hover{border:0;}
+html,body{
+	margin:0;
+	padding:0;
+}	
+h1 {text-align: center;}
+	p{text-align: center;
+	  font-family:"幼圆"
+	}
+#box{
+	height: 600px;
+	width:900px;
+	margin: 0 auto;
+	top: 0;
+	position: relative;
+	text-align: center;
+	background-image:url(image/daily/background.png);
+}
+	.return{
+	position: absolute;
+	left: 11px;
+	top: -2px;
+	width: 174px;
+	height: 124px;
+	}
+	.return:hover{
+	transform:scale(1.4);
+	cursor:pointer;
+	border:none;
+	}
+	.text{
+	position: absolute;
+	left: 89px;
+	top: 217px;
+	width: 367px;
+	height: 234px;
+	}
+	.next{
+	position: absolute;
+	left: 321px;
+	top: 337px;
+	width: 148px;
+	height: 148px;
+	}
+	.before{
+	position: absolute;
+	left: 63px;
+	top: 334px;
+	width: 123px;
+	height: 128px;
+	}
+	.next:hover{
+	transform:scale(1.5);
+	cursor:pointer;
+	border:none;
+	}
+	.before:hover{
+	transform:scale(1.5);
+	cursor:pointer;
+	border:none;
+	}
+	@keyframes pp{
+		0%{margin-top:50px;opacity:1;}
+		25%{margin-top:100px; margin-left:50px;opacity:1;}
+		50%{margin-top:200px; margin-left:0px;opacity:1;}
+		75%{margin-top:100px; margin-left:-50px;opacity:1;}
+		100%{margin-top:50px; margin-left:0px;opacity:1;}
+	}
+	@-webkit-keyframes pp{
+		0%{margin-top:50px;opacity:1;}
+		25%{margin-top:100px; margin-left:50px;opacity:1;}
+		50%{margin-top:20px; margin-left:0px;opacity:1;}
+		75%{margin-top:100px; margin-left:-50px;opacity:1;}
+		100%{margin-top:50px; margin-left:0px;opacity:1;}
+
+	}.pp{
+	position: absolute;
+	left: 510px;
+	top: 7px;
+	z-index: 999;
+	animation: pp 10s infinite;
+	-webkit-animation: pp 8s infinite;
+	}
+		.pp:hover
+{
+	animation-play-state:paused;
+    }
+	

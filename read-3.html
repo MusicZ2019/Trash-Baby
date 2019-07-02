@@ -12,6 +12,54 @@
 		margin: 0 auto;
 		background-image: url(image/read/background.png) ;
 	}
+	/*文字蹦出*/
+	#word{
+		position: absolute;
+	}
+	#showStr{
+	font-size: 25px;
+	color: #333;
+	font-family: "幼圆";
+}
+	#string{
+	font-size: 30px;
+	color: #333;
+	font-family: "幼圆";
+}
+	
+	#lajitong1{
+	position: absolute;
+	left: 277px;
+	top: 12px;
+	width: 73px;
+	height: 79px;
+	}
+	#lajitong2{
+	position: absolute;
+	left: 317px;
+	top: 68px;
+	width: 93px;
+	height: 96px;
+	}
+	#lajitong3{
+	position: absolute;
+	left: 826px;
+	top: 325px;
+	}
+	#lajitong4{
+	position: absolute;
+	left: 782px;
+	top: 381px;
+	width: 88px;
+	height: 110px;
+	}
+	#talking{
+	position: absolute;
+	left: -1px;
+	top: 174px;
+	width: 165px;
+	height: 143px;
+	}
 	#Border{
 	position: absolute;
 	left: 336px;
@@ -36,8 +84,10 @@
 	font-size: 25px;
 	color: #333;
 	font-family: "幼圆";
-	left: 449px;
-	top: 69px;
+	left: 98px;
+	top: 89px;
+	width: 438px;
+	height: 259px;
 	}
 	#textshow{
 	font-size: 25px;
@@ -46,19 +96,20 @@
 	}
 	#next1{
 	position: absolute;
-	left: 900px;
-	top: 456px;
+	left: 888px;
+	top: 471px;
 	height: 53px;
 	width: 80px;
 	}
 	#last{
 	position: absolute;
-	left: 831px;
-	top: 490px;
-	width: 80px;
-	height: 60px;
+	left: 814px;
+	top: 518px;
+	width: 103px;
+	height: 71px;
 	}
-	#return:hover,#next1:hover,#last:hover{
+	#lajitong1:hover,#lajitong2:hover,#lajitong3:hover,#lajitong4:hover,#return:hover,#next1:hover,#last:hover
+	{
 	transform:scale(1.1);
 	}
 	</style></head>
@@ -66,20 +117,17 @@
 <body>
 <div id="all">
 <marquee direction="right" behavior="alternate" width="600px" hspace="100px" scrollamount="5"onmouseover=this.stop() onmouseout=this.start()><img src="image/read/cloud.png" width="247" height="126" ></marquee>
-<div id="Border"><img src="image/read/content.png"width="616" height="456"></div>
-<div id="return"><a href="navigation.html"><img src="image/read/next.png" width="306" height="64"></a></div>
-<p id="word">
-&nbsp;&nbsp;&nbsp;&nbsp;
-垃圾分类三字经<br/><br/>
-大家一起来环保， 垃圾分类最重要， <br/>
-可回收，丢蓝色， 有害垃圾丢红色， <br/>
-厨余垃圾是棕色， 其它垃圾用黑色， <br/>
-垃圾分类要坚持， 创建文明靠大家。 <br/>
-</p>
-
-<script type="text/javascript">
+<div id="Border">
+  <div id="word">
+    <p id="showStr"></p>
+    <p id="string" style="display:none"> 
+     大家一起来环保， 垃圾分类最重要。
+      可回收，丢蓝色， 有害垃圾丢红色。 
+      厨余垃圾是棕色， 其它垃圾用黑色。
+      垃圾分类要坚持， 创建文明靠大家。 </p>
+    <script type="text/javascript">
   var index = 0;  
-  var str = document.getElementById("textshow").innerHTML;  
+  var str = document.getElementById("string").innerHTML;  
   setInterval(function() {  
    if(index == str.length) { 
 //清除定时器
@@ -87,13 +135,25 @@ clearInterval();
 //若要让效果无限循环，把index归0即可
 // index = 0;
 }  
-var a = document.getElementById("#word")
+var a = document.getElementById("showStr")
 a.innerText = str.substring(0, index++);
 },300)
-</script>
-<div id="next1"><img src="image/read/last.png" height="59" width="88"></div>
+  
+  </script>
+  </div>
+  <img src="image/read/content.png"width="616" height="456">
+  
+</div>
+<div id="lajitong1"><img src="image/read/1.png" width="98" height="137"></div>  <!--加声音-->
+<div id="lajitong2"><img src="image/read/2.png" width="88" height="123"></div>
+<div id="lajitong3"><img src="image/read/3.png" width="101" height="141"></div>  <!--加声音-->
+<div id="lajitong4"><img src="image/read/4.png" width="83" height="107"></div>
+<div id="talking"><img src="image/read/read!.png" width="218" height="110"></div>
+<!--链接到其他网页-->
+<div id="return"><a href="navigation.html"><img src="image/read/return.png" width="307" height="64"></a></div>
+<div id="next1"><img src="image/read/last.png" height="71" width="105"></div>
 
-<div id="last"><a href="read-2.html"><img src="image/read/next1.png" height="55" width="82"></a></div>
+<div id="last"><a href="read-2.html"><img src="image/read/next1.png" height="57" width="90"></a></div>
 </div>
 
 </div>
