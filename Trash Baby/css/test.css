@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#a1{
+		position:relative;
+		width: 1000px;
+		height: 580px;
+		margin: 0 auto;
+		background-image: url(image/text/background.png);
+	}
+	#boy{
+	position: absolute;
+	left: 75px;
+	top: 281px;
+	}
+	#girl{
+	position: absolute;
+	left: 782px;
+	top: 239px;
+	width: 163px;
+	height: 275px;
+	}
+	#sun{
+	position: absolute;
+	left: 17px;
+	top: 10px;
+	}
+	#word{
+	position: absolute;
+	top: 136px;
+	width: 443px;
+	height: 132px;
+	left: 329px;
+	}
+	#word2{
+		position: absolute;
+	}
+	#boy:hover,#girl:hover{
+	transform:scale(1.1);
+	}
