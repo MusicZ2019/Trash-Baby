@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all{
+		position:relative;
+		width: 1000px;
+		height: 620px;
+		margin: 0 auto;
+	}
+	#girl{
+	position: absolute;
+	left: 723px;
+	top: 182px;
+	width: 195px;
+	height: 341px;
+	}
+	#return{
+	position: absolute;
+	left: 707px;
+	top: 81px;
+	width: 339px;
+	height: 62px;
+	}
+	#next{
+	position: absolute;
+	left: 527px;
+	top: 297px;
+	width: 95px;
+	height: 61px;
+	}
+	#before{
+	position: absolute;
+	left: 136px;
+	top: 307px;
+	}
+	#girl:hover,#return:hover,#next:hover,#before:hover{
+		transform:scale(1.1);
+	}

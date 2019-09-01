@@ -26,14 +26,21 @@
 	}
 	#word{
 	position: absolute;
-	top: 136px;
+	top: 137px;
 	width: 443px;
 	height: 132px;
-	left: 329px;
+	left: 315px;
 	}
 	#word2{
 		position: absolute;
 	}
-	#boy:hover,#girl:hover{
+	#return{
+	position: absolute;
+	left: -45px;
+	top: 73px;
+	width: 338px;
+	height: 51px;
+	}
+	#boy:hover,#girl:hover,#return:hover{
 	transform:scale(1.1);
 	}

@@ -2,9 +2,165 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>advantage</title>
+<title>生活垃圾好处多多</title>
+<style type="text/css">
+a img{border:0;}
+a img:hover{border:0;}
+html,body{
+	margin:0;
+	padding:0;
+}	
+
+#box{
+	height: 548px;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	background-image:url(image/advantange/background.png)
+}
+	#picture1{
+	position: absolute;
+	left: 419px;
+	top: 286px;
+	width: 268px;
+	height: 245px;
+	}
+	#picture2{
+	position: absolute;
+	left: 620px;
+	top: 292px;
+	height: 220px;
+	width: 244px;
+	}
+	#picture3{
+	position: absolute;
+	left: 630px;
+	top: 26px;
+	width: 270px;
+	height: 235px;
+	}
+	#picture4{
+	position: absolute;
+	left: 425px;
+	top: 23px;
+	width: 242px;
+	height: 243px;
+	}
+	#picture5{
+	position: absolute;
+	left: 62px;
+	top: 227px;
+	width: 301px;
+	height: 304px;
+	}
+	#picture6{
+	position: absolute;
+	left: 245px;
+	top: 456px;
+	width: 229px;
+	height: 48px;
+	}
+	#label1{
+		position: absolute;
+	}
+	#label2{
+		position: absolute;
+		align:center;
+	}
+	#label3{
+		position: absolute;
+	}
+	#label4{
+		position:absolute;
+	</style>
+	<script type="text/javascript">
+function mouseOutPic1() 
+{ 
+if(window.event.toElement.id!="teacher") label1.style.visibility = "hidden"; 
+} 
+function mouseOverPic1(imgSrc)   
+{ 
+var seeBig = document.getElementById("label1"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+		
+function mouseOutPic2() 
+{ 
+if(window.event.toElement.id!="teacher") label2.style.visibility = "hidden"; 
+} 
+function mouseOverPic2(imgSrc)   
+{ 
+var seeBig = document.getElementById("label2"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+		
+function mouseOutPic3() 
+{ 
+if(window.event.toElement.id!="teacher") label3.style.visibility = "hidden"; 
+} 
+function mouseOverPic3(imgSrc)   
+{ 
+var seeBig = document.getElementById("label3"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+function mouseOutPic4() 
+{ 
+if(window.event.toElement.id!="teacher") label4.style.visibility = "hidden"; 
+} 
+function mouseOverPic4(imgSrc)   
+{ 
+var seeBig = document.getElementById("label4"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+
+
+	</script>
 </head>
 
 <body>
+<div id="box">
+<a href="#" >
+<img src="image/advantange/child1.png" width="283" height="251"  id="picture1" 
+onmouseover="mouseOverPic1('image/advantange/title.png'); label1.style.visibility='visible'; "
+onmouseout="mouseOutPic1();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/advantange/title.png')"></a>
+<div id="label1" style="visibility:hidden;"> </div>
+
+<a href="#">
+<img src="image/advantange/child2.png" id="picture2" 
+onMouseOver="mouseOverPic2('image/advantange/title2.png');label2.style.visibility='visible';"
+onmouseout="mouseOutPic2();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/advantage/title2.png')"></a>
+<div id="label2" style="visibility:hidden;"> </div>
+
+<a href="#">
+<img src="image/advantange/child3.png" width="226" height="226"  id="picture3"
+onMouseOver="mouseOverPic3('image/advantange/title3.png');label3.style.visibility='visible';"
+onmouseout="mouseOutPic3();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/advantange/title3.png')"></a>
+<div id="label3" style="visibility:hidden;"> </div>
+
+<a href="#">
+<img src="image/advantange/child4.png" width="241" height="245"  id="picture4"
+onMouseOver="mouseOverPic4('image/advantange/title4.png');label4.style.visibility='visible';"
+onmouseout="mouseOutPic4();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/advantange/title4.png')"></a>
+<div id="label4" style="visibility:hidden;"> </div>
+<div id="picture5"><img src="image/advantange/teache.png" width="292" height="296"></div>
+<div id="picture6"><a href="study.html"><img src="image/daily/return.png" width="149" height="73"></a></div>
+</div>
 </body>
 </html>

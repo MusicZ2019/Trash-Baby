@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all{
+		position:relative;
+		width: 1000px;
+		height: 580px;
+		margin: 0 auto;
+	}
+	#boy{
+	position: absolute;
+	left: 76px;
+	top: 268px;
+	}
+	#before{
+	position: absolute;
+	left: 400px;
+	top: 321px;
+		
+	}
+	#next{
+	position: absolute;
+	left: 800px;
+	top: 315px;
+	}
+	#return{
+	position: absolute;
+	left: -14px;
+	top: 94px;
+	}
+	#return:hover,#before:hover,#next:hover{
+		transform:scale(1.1);
+	}

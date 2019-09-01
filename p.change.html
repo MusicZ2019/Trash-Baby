@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>read time!</title>
+<style type="text/css">
+	
+	#all{
+		position: relative;
+		width: 1000px;
+		height: 580px;
+		margin: 0 auto;
+	}
+	
+	#lajitong1{
+	position: absolute;
+	left: 274px;
+	top: 18px;
+	width: 73px;
+	height: 79px;
+	}
+	
+	#talking{
+	position: absolute;
+	left: -1px;
+	top: 174px;
+	width: 165px;
+	height: 143px;
+	}
+	#return{
+	position: absolute;
+	left: 115px;
+	top: 510px;
+	width: 281px;
+	height: 66px;
+	}
+	
+	#img1{
+	position: absolute;
+	left: 336px;
+	top: 217px;
+}
+	#img2{
+	position: absolute;
+	left: 452px;
+	top: 254px;
+	width: 69px;
+}
+	#img3{
+	position: absolute;
+	left: 618px;
+	top: 326px;
+}
+	#img4{
+	position: absolute;
+	left: 658px;
+	top: 200px;
+	width: 107px;
+	height: 48px;
+}
+	#img5{
+	position: absolute;
+	left: 553px;
+	top: 195px;
+}
+	#img6{
+	position: absolute;
+	left: 751px;
+	top: 261px;
+}
+	#img7{
+	position: absolute;
+	left: 767px;
+	top: 157px;
+	}
+	#img8{
+	position: absolute;
+	left: 480px;
+	top: 397px;
+}
+	#img9{
+	position: absolute;
+	left: 220px;
+	top: 355px;
+	}
+	
+	#next1{
+	position: absolute;
+	left: 1084px;
+	top: 504px;
+	height: 72px;
+	width: 91px;
+	}
+	
+	#ljt{
+	position: absolute;
+	left: 834px;
+	width: 124px;
+	top: 333px;
+	}
+	#tips{
+	position: absolute;
+	left: 736px;
+	top: 3px;
+	width: 248px;
+	}
+	</style></head>
+
+<body>
+<div id="all" >
+ <img src="image/变废为宝/background.png" >
+  <div id="img1"><img src="image/变废为宝/img1.png" width="114" height="98" ></div>
+  <div id="img2"><img src="image/变废为宝/img2.png"></div>
+   <div id="img3"><img src="image/变废为宝/img3.png" width="105" height="105" ></div>
+   <div id="img4"><img src="image/变废为宝/img4.png"></div>
+   <div id="img5"><img src="image/变废为宝/img5.png" width="103" height="112" ></div>
+   <div id="img6"><img src="image/变废为宝/img6.png"></div>
+   <div id="img7"><img src="image/变废为宝/img7.png" width="107" height="103" ></div>
+   <div id="img8"><img src="image/变废为宝/img8.png"></div>
+  <div id="img9"><img src="image/变废为宝/img9.png" width="242" height="138" ></div>
+  <div id="ljt"><img src="image/变废为宝/rubbision.png" width="135" height="191"></div>
+   <div id="tips"><img src="image/变废为宝/tip.png" width="249" height="173"></div>
+ <!----实现图片出现-->
+  <script language="javascript">
+	  	var i=0,j
+		function img(){
+				document.write ("<img src='img"+i+"' width=200 height=200>");
+				i++;
+				if(i=9){i=0};
+					setTimeout ("img()",1000);
+						}
+</script>
+</div>
+<!--链接到其他网页-->
+<div id="return"><a href="gametitle.html"><img src="image/read/return.png" width="306" height="64"></a></div>
+
+</div>
+
+</div>
+</body>
+</html>

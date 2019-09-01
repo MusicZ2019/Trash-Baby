@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+a img{border:0;}
+a img:hover{border:0;}
+html，body{
+	margin:0px;
+	padding：0px；
+}
+ h1 {
+	text-align：center;
+	font-size：25px；
+}
+	p{text-align:center;
+      font-size: 22px;
+	  font-family:"幼圆"
+	}
+
+#box{
+	height: 548px;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+	#text{
+		top: auto;
+	}
+#title{
+	position: absolute;
+	overflow-y:auto;
+	top: 137px;
+	width: 592px;
+	height: 347px;
+	left: 177px;
+	}
+.bike
+{
+	position: absolute;
+	left: 669px;
+	top: 327px;
+	width: 260px;
+	height: 242px;
+}
+.bike:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+	border:none;
+	}

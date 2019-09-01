@@ -1,0 +1,309 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>谁是大坏蛋</title>
+<style type="text/css">
+a img{border:0;}
+a img:hover{border:0;}
+body{
+	margin:0;
+}
+#box{
+	height: 548px;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	background-image:url(image/badboss/background.png);
+}
+#bt {
+	position:absolute;
+	top:20px;
+	left:310px;
+}
+/*游戏*/
+#cj{
+	position: absolute;
+	left: 28px;
+	top: 83px;
+	width: 801px;
+	height: 386px;
+}
+#wt1{
+	position: absolute;
+	left: 419px;
+	top: 391px;
+	width: 46px;
+	height: 55px;
+}
+#wt1:hover{
+	width:30px;
+	height:30px;
+}
+#wt2{
+	position: absolute;
+	left: 90px;
+	top: 268px;
+	width: 28px;
+	height: 37px;
+}
+#wt2:hover{
+	width:40px;
+	height:40px;
+}
+#wt3{
+	position: absolute;
+	left: 343px;
+	top: 275px;
+	width: 73px;
+	height: 51px;
+}
+#wt3:hover{
+	width:35px;
+	height:12px;
+}
+#wt4{
+	position: absolute;
+	left: 738px;
+	top: 260px;
+}
+#wt4:hover{
+	width:25px;
+	height:43px;
+}
+#wt5{
+	position: absolute;
+	left: 253px;
+	top: 306px;
+	height: 34px;
+	width: 20px;
+}
+#wt5:hover{
+	width:40px;
+	height:25px;
+}
+
+#cz{
+	position:absolute;
+	left:60px;
+	top:460px;
+	}
+#xts{
+	color:#FB0004;}
+#ts{
+	position: absolute;
+	top: 88px;
+	left: 661px;
+	text-align: right;
+	font-weight: bold;
+	font-family: "幼圆";
+	font-size: 16px;
+	color: #3B3B3B;
+	line-height: 21px;
+	width: 197px;
+	height: 150px;
+}
+#tsl{
+	position:absolute;
+	top:170px;
+	left:780px;}
+
+#hd{
+	position: absolute;
+	top: 5px;
+	left: 372px;
+	width: 362px;
+	height: 79px;
+	font-family: "幼圆";
+	color: #363636;
+	font-size: 20px;
+	font-weight: bold;
+}
+#pd1{
+	position:absolute;
+	left:420px;
+	top:395px;
+}
+#pd2{
+	position:absolute;
+	left:95px;
+	top:272px;
+}
+#pd3{
+	position:absolute;
+	left:345px;
+	top:280px;
+}
+#pd4{
+	position:absolute;
+	left:740px;
+	top:265px;
+}
+#pd5{
+	position:absolute;
+	left:254px;
+	top:310px;
+}
+
+/*游戏*/
+/*返回*/
+#cw a img{
+	position: absolute;
+	top: 372px;
+	left: 780px;
+	width: 92px;
+	height: 73px;
+	}
+#cw a img:hover{
+	 transform:scale(1.1);
+
+	}
+#fh a img{
+	position: absolute;
+	top: 435px;
+	left: 785px;
+	width: 85px;
+	height: 71px;
+	}
+#fh a img:hover{
+	  transform:scale(1.1);
+
+	}
+</style>
+<script type="text/javascript">
+function change_img1(e){
+    var aaa = e.name;
+    if(aaa == "sure1"){
+		document.getElementById("hd").innerHTML = "正确！废玻璃瓶虽然属于可回收物，但是如果被乱扔在马路上，它就变成了大坏蛋，会危害交通安全哦！所以要把垃圾随手扔进垃圾桶哦！";
+		document.getElementById("pd1").style.display = "block";
+		document.getElementById("pd2").style.display = "none";
+		document.getElementById("pd3").style.display = "none";
+		document.getElementById("pd4").style.display = "none";
+		document.getElementById("pd5").style.display = "none";
+		document.getElementById("pd6").style.display = "none";
+		document.getElementById("pd7").style.display = "none";
+		document.getElementById("pd8").style.display = "none";
+		document.getElementById("pd9").style.display = "none";
+		document.getElementById("pd10").style.display = "none";
+		document.getElementById("pd11").style.display = "none";
+	
+    }
+}
+function change_img2(e){
+    var aaa = e.name;
+    if(aaa == "sure2"){
+        document.getElementById("hd").innerHTML = "正确！废电灯泡本身就属于有害垃圾，同时它又被扔在马路上，它就是超级大坏蛋！小朋友们。我们一定要小心处理有害垃圾，一定要把他们放进有害垃圾桶里哦！";
+		document.getElementById("pd1").style.display = "none";
+		document.getElementById("pd2").style.display = "block";
+		document.getElementById("pd3").style.display = "none";
+		document.getElementById("pd4").style.display = "none";
+		document.getElementById("pd5").style.display = "none";
+		document.getElementById("pd6").style.display = "none";
+		document.getElementById("pd7").style.display = "none";
+		document.getElementById("pd8").style.display = "none";
+		document.getElementById("pd9").style.display = "none";
+		document.getElementById("pd10").style.display = "none";
+		document.getElementById("pd11").style.display = "none";
+		
+		
+    }
+}
+function change_img3(e){
+    var aaa = e.name;
+    if(aaa == "sure3"){
+        document.getElementById("hd").innerHTML = "错误！废旧报纸属于可回收物哦，小象baby正在寻找可回收垃圾桶，把废旧报纸送回家呢！";
+		document.getElementById("pd1").style.display = "none";
+		document.getElementById("pd2").style.display = "none";
+		document.getElementById("pd3").style.display = "block";
+		document.getElementById("pd4").style.display = "none";
+		document.getElementById("pd5").style.display = "none";
+		document.getElementById("pd6").style.display = "none";
+		document.getElementById("pd7").style.display = "none";
+		document.getElementById("pd8").style.display = "none";
+		document.getElementById("pd9").style.display = "none";
+		document.getElementById("pd10").style.display = "none";
+		document.getElementById("pd11").style.display = "none";
+		
+	
+    }
+}
+function change_img4(e){
+    var aaa = e.name;
+    if(aaa == "sure4"){
+        document.getElementById("hd").innerHTML = "正确！废旧的油漆桶属于有害垃圾，放在路边是不对的哦！";
+		document.getElementById("pd1").style.display = "none";
+		document.getElementById("pd2").style.display = "none";
+		document.getElementById("pd3").style.display = "none";
+		document.getElementById("pd4").style.display = "block";
+		document.getElementById("pd5").style.display = "none";
+		document.getElementById("pd6").style.display = "none";
+		document.getElementById("pd7").style.display = "none";
+		document.getElementById("pd8").style.display = "none";
+		document.getElementById("pd9").style.display = "none";
+		document.getElementById("pd10").style.display = "none";
+		document.getElementById("pd11").style.display = "none";
+		
+    }
+}
+function change_img5(e){
+    var aaa = e.name;
+    if(aaa == "sure5"){
+        document.getElementById("hd").innerHTML = "正确！杀虫剂属于有害垃圾，不过，我相信小鸭子宝宝，正在找有害垃圾桶，把这个”大坏蛋“送回家呢！";
+		document.getElementById("pd1").style.display = "none";
+		document.getElementById("pd2").style.display = "none";
+		document.getElementById("pd3").style.display = "none";
+		document.getElementById("pd4").style.display = "none";
+		document.getElementById("pd5").style.display = "block";
+		document.getElementById("pd6").style.display = "none";
+		document.getElementById("pd7").style.display = "none";
+		document.getElementById("pd8").style.display = "none";
+		document.getElementById("pd9").style.display = "none";
+		document.getElementById("pd10").style.display = "none";
+		document.getElementById("pd11").style.display = "none";
+		
+	
+    }
+}
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<div id="box">
+<div id="cj">
+<img src="image/badboss/classroom.jpg" width="852" height="431">
+</div>
+<img src="image/badboss/lamp.png" id="wt2" onClick="change_img2(this)" name="sure2"  width="26" height="33" title="废电灯泡">
+<img src="image/badboss/bottle.png" id="wt1" onclick="change_img1(this)" name="sure1"  width="25px" height="25px" title="空酒杯">
+<img src="image/badboss/newspaper.png" id="wt3" onclick="change_img3(this)" name="sure3"  width="30px" height="10px" title="废旧报纸">
+<img src="image/badboss/oil.png" id="wt4" onclick="change_img4(this)" name="sure4"  width="52" height="56" title="油漆桶">
+<img src="image/badboss/shachongji.png" id="wt5" onclick="change_img5(this)" name="sure5"  width="35px" height="20px" title="杀虫剂">
+
+
+
+<img src="image/badboss/right.png" width="50px" height="45px" id="pd1" style="display:none">
+<img src="image/badboss/right.png" width="50px" height="45px" id="pd2" style="display:none">
+<img src="image/badboss/wrong.png" width="55px" height="50px" id="pd3" style="display:none">
+<img src="image/badboss/right.png" width="50px" height="45px" id="pd4" style="display:none">
+<img src="image/badboss/right.png" width="50px" height="45px" id="pd5" style="display:none">
+<div id="hd"></div>
+<!--游戏-->
+<!--返回-->
+<div id="cw">
+<a href="badboss.html"><img src="image/badboss/again.png" width="93" height="69" title="重玩"></a>
+</div>
+<div id="fh">
+<a href="gametitle.html"><img src="image/daily/return.png" width="69" height="61" title="返回"></a>
+</div>
+<div id="ts">
+  <p><span id="xts">小提示：</span>左图的场景中
+    有5个垃圾是大坏蛋，如果处理不好会带来极大的危害，请同学们帮忙找到他们吧！</p>
+</div>
+</div>
+</body>
+</html>

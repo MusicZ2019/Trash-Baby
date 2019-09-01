@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>生活垃圾的危害</title>
+<style type="text/css">
+a img{border:0;}
+a img:hover{border:0;}
+html,body{
+	margin:0;
+	padding:0;
+}	
+
+#box{
+	height: 548px;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	background-image:url(image/daily/background2.png);
+}
+	.return{
+	position: absolute;
+	left: 28px;
+	top: 60px;
+	width: 222px;
+	height: 86px;
+	}
+	#label1{
+		position: absolute;
+	}
+	#label2{
+		position: absolute;
+	}
+	#label3{
+		position: absolute;
+	}
+	#child1{
+	position: absolute;
+	left: 37px;
+	top: 380px;
+	width: 492px;
+	}
+  #butterfly{
+	position: absolute;
+	left: 426px;
+	top: 103px;
+	width: 166px;
+	height: 139px;
+	}
+  #angle{
+	position: absolute;
+	left: 553px;
+	top: 109px;
+	width: 321px;
+	height: 222px;
+	}
+	</style>
+	<script type="text/javascript">
+function mouseOutPic1() 
+{ 
+if(window.event.toElement.id!="teacher") label1.style.visibility = "hidden"; 
+} 
+function mouseOverPic1(imgSrc)   
+{ 
+var seeBig = document.getElementById("label1"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+function mouseOutPic2() 
+{ 
+if(window.event.toElement.id!="teacher") label2.style.visibility = "hidden"; 
+} 
+function mouseOverPic2(imgSrc)   
+{ 
+var seeBig = document.getElementById("label2"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+function mouseOutPic3() 
+{ 
+if(window.event.toElement.id!="teacher") label3.style.visibility = "hidden"; 
+} 
+function mouseOverPic3(imgSrc)   
+{ 
+var seeBig = document.getElementById("label3"); 
+var newImg = document.createElement("img");  
+newImg = "<img src=\'" + imgSrc + "\'/>";  
+seeBig.innerHTML = newImg;     
+} 
+	</script>
+
+</head>
+
+<body>
+<div id="box">
+<a href="#" >
+<img src="image/daily/child.png" width="408" height="145" id="child1" 
+onmouseover="mouseOverPic1('image/daily/type1.png'); label1.style.visibility='visible'; "
+onmouseout="mouseOutPic1();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/daily/type1.png')"></a>
+<div id="label1" style="visibility:hidden;"> </div>
+
+<a href="#">
+<img src="image/daily/butterfly.png" id="butterfly" width="145" height="127"
+onMouseOver="mouseOverPic2('image/daily/type2.png');label2.style.visibility='visible';"
+onmouseout="mouseOutPic2();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/daily/type2.png')"></a>
+<div id="label2" style="visibility:hidden;"> </div>
+
+<a href="#">
+<img src="image/daily/angle.png" width="225" height="222" tiltle="点击天使" id="angle"
+onMouseOver="mouseOverPic3('image/daily/type3.png');label3.style.visibility='visible';"
+onmouseout="mouseOutPic3();">
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/daily/type3.png')"></a>
+<div id="label3" style="visibility:hidden;"> </div>
+<div class="return"><a href="study.html"><img src="image/daily/return.png" width="121" height="62"></a></div>
+
+</div>
+
+</body>
+</html>
