@@ -11,13 +11,14 @@
 	position: absolute;
 	z-index: -999;
 	margin: 0 auto;
-	width: 1052px;
-	height: 571px;
+	width: 980px;
+	height: 538px;
+	left: 0px;
 }
 #ts{
 	position: absolute;
-	top: 485px;
-	left: 52px;
+	top: 460px;
+	left: 49px;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 24px;

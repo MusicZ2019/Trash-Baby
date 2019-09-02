@@ -3,16 +3,16 @@
 
 .show {
 	position: absolute;
-	width: 1000px;
+	width: 700px;
 	cursor: pointer;
 	margin-top: 120px;
 	margin-left: 50px;
-	left: 265px;
-	top: -95px;
-	height: 746px;
+	top: -98px;
+	height: 500px;
+	left: 183px;
 } 
 .show.topBottom {
-	width: 777px;
+	width: 760px;
 }
 .canvas{
 	position: absolute;
@@ -57,8 +57,8 @@
 
 #fh a img{
 	position: absolute;
-	top: 483px;
-	left: 831px;
+	top: 399px;
+	left: 742px;
 	width: 256px;
 	height: 63px;
 	
@@ -69,8 +69,8 @@
 	}
 .resetCanvasBtn img{
 	position: absolute;
-	top: 423px;
-	left: 944px;
+	top: 332px;
+	left: 872px;
 	
 	}
 .resetCanvasBtn img:hover{
@@ -80,8 +80,8 @@
 
 .goBackBtn img{
 	position: absolute;
-	top: 506px;
-	left: 430px;
+	top: 462px;
+	left: 461px;
 	
 	}
 .goBackBtn img:hover{
@@ -90,8 +90,8 @@
 	}
 .savePair img{
 	position: absolute;
-	top: 503px;
-	left: 580px;
+	top: 460px;
+	left: 622px;
 	
 	}
 .savePair img:hover{
