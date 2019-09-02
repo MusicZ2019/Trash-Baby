@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.show {
+	position: absolute;
+	width: 700px;
+	cursor: pointer;
+	margin-top: 120px;
+	margin-left: 50px;
+	top: -98px;
+	height: 500px;
+	left: 183px;
+} 
+.show.topBottom {
+	width: 760px;
+}
+.canvas{
+	position: absolute;
+	left: 0px;
+	top: 1px;
+	z-index: -1;
+}
+.backcanvas{ 
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	z-index:-2;
+}
+.showleft{ 
+	float:left;
+	width:150px; 
+}
+.showright {
+	float:right;
+	width:150px; 
+} 
+.showtop, .showbottom {
+	float: left;
+}
+.showtop {
+	margin-top: 20px; 
+}
+.showbottom {
+	margin-top: 120px;
+	margin-bottom: 20px; 
+}
+.show .showitem{
+	width:140px; 
+	height:140px; 
+	display:block; 
+	margin:10px;
+}
+.show.topBottom .showitem {
+	float: left; 
+	margin:5px; 
+}
+
+#fh a img{
+	position: absolute;
+	top: 399px;
+	left: 742px;
+	width: 256px;
+	height: 63px;
+	
+	}
+#fh a img:hover{
+	  transform:scale(1.1);
+
+	}
+.resetCanvasBtn img{
+	position: absolute;
+	top: 332px;
+	left: 872px;
+	
+	}
+.resetCanvasBtn img:hover{
+	  transform:scale(1.1);
+
+	}
+
+.goBackBtn img{
+	position: absolute;
+	top: 462px;
+	left: 461px;
+	
+	}
+.goBackBtn img:hover{
+	  transform:scale(1.1);
+
+	}
+.savePair img{
+	position: absolute;
+	top: 460px;
+	left: 622px;
+	
+	}
+.savePair img:hover{
+	  transform:scale(1.1);
+
+	}

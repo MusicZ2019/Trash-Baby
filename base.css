@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS reset */
+#box{
+	height: 620px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#bj{
+	position: absolute;
+	z-index: -999;
+	margin: 0 auto;
+	width: 980px;
+	height: 538px;
+	left: 0px;
+}
+#ts{
+	position: absolute;
+	top: 460px;
+	left: 49px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+
+#rqq
+{
+	position:absolute;
+	left:-10px;
+	top:30px;
+	}
+
+/* 定位*/
+.cb:after { visibility:hidden;	display:block;	font-size:0;	content:" ";	clear:both;		height:0; }
+.cb { clear:both; zoom:1;}
