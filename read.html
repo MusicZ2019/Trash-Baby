@@ -6,10 +6,15 @@
 <style type="text/css">
 	
 	#all{
-		position: relative;
-		width: 1000px;
-		height: 580px;
-		margin: 0 auto;
+		position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 598px;
+	width:1000px;
+	text-align: center;
 		background-image: url(image/read/background.png) ;
 	}
 	/*文字蹦出*/
@@ -123,7 +128,7 @@
     <script type="text/javascript">
   var index = 0;  
   var str = document.getElementById("string").innerHTML;  
-  setInterval(function() {  
+  setInterval(function() {  /
    if(index == str.length) { 
 //清除定时器
 clearInterval();
@@ -138,9 +143,9 @@ a.innerText = str.substring(0, index++);
   </div>
 <img src="image/read/content.png" width="616" height="456">
 </div>
-<div id="lajitong1"><img src="image/read/1.png" width="94" height="131"></div>  <!--加声音-->
+<div id="lajitong1"><img src="image/read/1.png" width="94" height="131"></div>  
 <div id="lajitong2"><img src="image/read/2.png" width="83" height="121"></div>
-<div id="lajitong3"><img src="image/read/3.png" width="105" height="130"></div>  <!--加声音-->
+<div id="lajitong3"><img src="image/read/3.png" width="105" height="130"></div> 
 <div id="lajitong4"><img src="image/read/4.png" width="89" height="109"></div>
 <div id="talking"><img src="image/read/read!.png" width="218" height="110"></div>
 <!--链接到其他网页-->

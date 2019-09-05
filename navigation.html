@@ -8,17 +8,18 @@ html,body{
 		margin: 0 ;
 		padding: 0;
 	}
-.a1{
-	position: relative;
-	width: 1000px;
-  	height:620px;
- 	margin: 0 auto;
-	}
+
 	#boxx{
-		position: relative;
-		width: 1000px;
-		height: 620px;
-		margin: 0 auto;
+		position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 598px;
+	width:1000px;
+	text-align: center;
+	background-image: url(image/navigation/background.png)
 	}
 	.title{
 	position: absolute;
@@ -99,11 +100,7 @@ html,body{
 <body>
 <!-- 背景-->
 <div id="boxx">
-<div class="a1"><img src="image/navigation/background.png" width="1000" height="620"></div>
 <!-- 目录-->
-<div class="title"><img src="image/navigation/title.png" width="189" height="120"></div>
-	<div class="title1"><img src="image/navigation/elephant.png" width="272" height="356"></div>
-	<div class="teacher"><img src="image/navigation/teacher.png" width="172" height="299"></div>
 <!-- 选择区-->
 	<div class="list">
 		<a href="study.html"><img src="image/navigation/study.png" width="146" height="100" id="choose1"></a>
@@ -113,7 +110,6 @@ html,body{
 		<a href="index.html"><img src="image/navigation/next.png" width="217" height="65" id="return"></a>
 	</div>
 </div>
-	
 
 </body>
 </html>

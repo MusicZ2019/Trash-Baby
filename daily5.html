@@ -12,10 +12,14 @@ html,body{
 }	
 
 #box{
-	height: 548px;
-	width: 900px;
-	margin: 0 auto;
-	position: relative;
+	position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 560px;
+	width:900px;
 	text-align: center;
 	background-image:url(image/daily/background2.png);
 }
@@ -43,17 +47,24 @@ html,body{
 	}
   #butterfly{
 	position: absolute;
-	left: 426px;
-	top: 103px;
+	left: 413px;
+	top: 101px;
 	width: 166px;
 	height: 139px;
 	}
   #angle{
 	position: absolute;
-	left: 553px;
-	top: 109px;
+	left: 555px;
+	top: 162px;
 	width: 321px;
 	height: 222px;
+	}
+	.tishi{
+	position: absolute;
+	width: 288px;
+	left: 604px;
+	top: 3px;
+	height: 165px;
 	}
 	</style>
 	<script type="text/javascript">
@@ -113,14 +124,14 @@ onmouseout="mouseOutPic2();">
 <div id="label2" style="visibility:hidden;"> </div>
 
 <a href="#">
-<img src="image/daily/angle.png" width="225" height="222" tiltle="点击天使" id="angle"
+<img src="image/daily/angle.png" width="266" height="215" tiltle="点击天使" id="angle"
 onMouseOver="mouseOverPic3('image/daily/type3.png');label3.style.visibility='visible';"
 onmouseout="mouseOutPic3();">
 </a>
 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image1','','image/daily/type3.png')"></a>
 <div id="label3" style="visibility:hidden;"> </div>
 <div class="return"><a href="study.html"><img src="image/daily/return.png" width="121" height="62"></a></div>
-
+<div class="tishi"><a href="#"><img src="image/daily/tishi.png" width="291" height="181"></a></div>
 </div>
 
 </body>
