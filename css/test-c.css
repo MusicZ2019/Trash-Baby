@@ -2,15 +2,21 @@
 /* CSS Document */
 
 #all{
-		position:relative;
-		width: 1000px;
-		height: 580px;
-		margin: 0 auto;
+	position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 598px;
+	width:1000px;
+	text-align: center;
+		background-image:url(../image/text/text-1.jpg);
 	}
 	#boy{
 	position: absolute;
-	left: 76px;
-	top: 268px;
+	left: 81px;
+	top: 260px;
 	}
 	#before{
 	position: absolute;
@@ -25,8 +31,9 @@
 	}
 	#return{
 	position: absolute;
-	left: -14px;
-	top: 94px;
+	left: -31px;
+	top: 95px;
+	height: 57px;
 	}
 	#return:hover,#before:hover,#next:hover{
 		transform:scale(1.1);

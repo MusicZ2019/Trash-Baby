@@ -16,10 +16,14 @@ html，body{
 	}
 
 #box{
-	height: 548px;
-	width: 900px;
-	margin: 0 auto;
-	position: relative;
+	position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 598px;
+	width:900px;
 	text-align: center;
 }
 	#text{

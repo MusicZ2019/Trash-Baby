@@ -1,20 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 /* CSS reset */
-#box{
-	height: 620px;
-	width: 1000px;
-	margin: 0 auto;
-	position: relative;
+#box{position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 549px;
+	width:1000px;
+	text-align: center;
+	background-image:url(../image/comeback/background.png)
 }
-#bj{
-	position: absolute;
-	z-index: -999;
-	margin: 0 auto;
-	width: 980px;
-	height: 538px;
-	left: 0px;
-}
+
 #ts{
 	position: absolute;
 	top: 460px;

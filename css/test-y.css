@@ -2,10 +2,16 @@
 /* CSS Document */
 
 #all{
-		position:relative;
-		width: 1000px;
-		height: 620px;
-		margin: 0 auto;
+	position:fixed;
+    left:0;
+    right:0;
+    top:0;
+	bottom:0;
+    margin:auto;
+	height: 598px;
+	width:1000px;
+	text-align: center;
+		background-image: url(../image/text/text-2.jpg);
 	}
 	#girl{
 	position: absolute;
